@@ -1,4 +1,4 @@
-document.onload = () => {
+function onload() {
 
   var blog_api_url = 'https://us-central1-blog-bc328.cloudfunctions.net/posts';
   var posts_list = document.getElementById('articles-list');
